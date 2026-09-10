@@ -8,10 +8,11 @@ export const Profile = () => {
             <header className="hero">
 
                 <img
-                    src="./image/FOTO DO.jpg"
+                    src="/image/FOTO DO.jpg"
                     alt="Profile"
                     className="Profile-image"
-                ></img><br />
+                />
+                <br />
 
                 <h1>ANDRES FELIPE GALLEGO CARVAJAL</h1>
 
