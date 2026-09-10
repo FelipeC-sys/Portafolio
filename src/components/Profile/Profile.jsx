@@ -7,11 +7,11 @@ export const Profile = () => {
             {/* ENCABEZADO */}
             <header className="hero">
 
-                <div className="profile-image">
-                    <div className="avatar">
-                        👨‍💻
-                    </div>
-                </div>
+                <img
+                    src="./image/FOTO DO.jpg"
+                    alt="Profile"
+                    className="Profile-image"
+                ></img><br />
 
                 <h1>ANDRES FELIPE GALLEGO CARVAJAL</h1>
 
@@ -46,11 +46,11 @@ export const Profile = () => {
                     Ver mi CV
                 </a>
 
-            </header>
+            </header >
 
 
             {/* SOBRE MÍ */}
-            <section className="section" id="about">
+            < section className="section" id="about" >
 
                 <h2>SOBRE MÍ</h2>
 
@@ -73,11 +73,11 @@ export const Profile = () => {
 
                 </div>
 
-            </section>
+            </section >
 
 
             {/* PROYECTOS */}
-            <section className="section">
+            < section className="section" >
 
                 <h2>PROYECTOS</h2>
 
@@ -85,9 +85,11 @@ export const Profile = () => {
 
                     <article className="project-card">
 
-                        <div className="project-image">
-                            💻
-                        </div>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe41yzAWDR9p3n1pLwXKUeOsPmQ459DQutqScFugj56OMfu-8HRQnQLs0&s=10"
+                            height="150px"
+                            alt="Angular"
+                        ></img>
 
                         <h3>Consumo de API</h3>
 
@@ -108,9 +110,11 @@ export const Profile = () => {
 
                     <article className="project-card">
 
-                        <div className="project-image">
-                            🌐
-                        </div>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZ7KgSu3KEPjdF6QzfZSY_sC3ve3mIUxdQG3DfSa_nfA9vpP4CYs9jO4&s=10"
+                            height="150px"
+                            alt="SGSSS"
+                        ></img>
 
                         <h3>Libro de Aportes</h3>
 
@@ -127,12 +131,13 @@ export const Profile = () => {
 
                     </article>
 
-
                     <article className="project-card">
 
-                        <div className="project-image">
-                            📱
-                        </div>
+                        <img
+                            src="https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/springshell-spring-cloud-function-bugs-need-urgent-patching-showcase_image-4-a-18822.jpg"
+                            height="150px"
+                            alt="Micromarket"
+                        ></img>
 
                         <h3>Micromarket</h3>
 
@@ -152,11 +157,11 @@ export const Profile = () => {
 
                 </div>
 
-            </section>
+            </section >
 
 
             {/* ESTUDIOS */}
-            <section className="section">
+            < section className="section" >
 
                 <h2>ESTUDIOS</h2>
 
@@ -207,38 +212,38 @@ export const Profile = () => {
 
                 </div>
 
-            </section>
+            </section >
 
 
             {/* CONTACTO */}
-            <section className="contact" id="contact">
+            < section className="contact" id="contact" >
 
                 <h2>CONTACTO</h2>
 
                 <p>
-                    📧 felipe@example.com
+                    📧 andrezx00@gmail.com
                 </p>
 
                 <p>
-                    💼 linkedin.com/in/felipe
+                    📞 +57 311-755-1297
                 </p>
 
                 <p>
-                    💻 github.com/felipe
+                    💻 https://github.com/FelipeC-sys
                 </p>
 
-            </section>
+            </section >
 
 
             {/* FOOTER */}
-            <footer>
+            < footer >
 
                 <p>
                     © 2026 Felipe C · Desarrollado con React
                 </p>
 
-            </footer>
+            </footer >
 
-        </div>
+        </div >
     )
 }
