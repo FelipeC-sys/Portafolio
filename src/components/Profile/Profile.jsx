@@ -8,7 +8,7 @@ export const Profile = () => {
             <header className="hero">
 
                 <img
-                    src="/image/FOTO DO.jpg"
+                    src="/Portafolio/image/FOTO DO.jpg"
                     alt="Profile"
                     className="Profile-image"
                 />
